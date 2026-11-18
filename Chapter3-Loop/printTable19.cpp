@@ -17,7 +17,7 @@ int main(){
     for(int i=0;i<=n;i+=1){
        int rem = n%10;
         n /= 10;
-       int ans = ans*10+rem;
+     ans = ans*10+rem;
 
     }
     cout<<ans;
