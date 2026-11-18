@@ -13,9 +13,13 @@ int main(){
     // }
     int n;
     cin>>n;
+    int ans = 0;
+    for(int i=0;i<=n;i+=1){
+       int rem = n%10;
+        n /= 10;
+       int ans = ans*10+rem;
 
-    for(int i=n;i<=n*10;i+=n){
-        cout<<i<<" ";
     }
+    cout<<ans;
   
 }
